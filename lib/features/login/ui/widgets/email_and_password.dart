@@ -31,7 +31,7 @@ class _EmailAndPasswordState extends State<EmailAndPassword> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text("Welcome back!", style: FontsStyle.font28SemiBoldWhite),
+          Text("Welcome back!", style: FontsStyle.font24SemiBoldWhite),
           verticalSpace(30),
           Text("Email", style: FontsStyle.font18BoldWhite),
           verticalSpace(10),

@@ -28,8 +28,8 @@ class FontsStyle {
     fontWeight: FontWeight.normal,
   );
 
-  static TextStyle font28SemiBoldWhite = GoogleFonts.poppins(
-    fontSize: 28,
+  static TextStyle font24SemiBoldWhite = GoogleFonts.poppins(
+    fontSize: 24,
     fontWeight: FontWeight.w600,
     color: Colors.white,
   );
