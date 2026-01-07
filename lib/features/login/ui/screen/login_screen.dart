@@ -1,17 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:mahfazty/features/login/logic/cubit/login_cubit.dart';
-import 'package:mahfazty/features/login/ui/widgets/build_block_listener.dart';
-import 'package:mahfazty/features/login/ui/widgets/dont_have_account.dart';
-import 'package:mahfazty/features/login/ui/widgets/email_and_password.dart';
-import 'package:mahfazty/features/login/ui/widgets/terms_and_conditions.dart';
 
 import '../../../../core/helpers/spacing.dart';
 import '../../../../core/theme/fonts_style.dart';
 import '../../../../core/theme/my_colors.dart';
 import '../../../../core/widgets/my_button_gradient.dart';
-import '../../../../core/widgets/my_text_form_field.dart';
+import '../../logic/cubit/login_cubit.dart';
+import '../widgets/build_block_listener.dart';
+import '../widgets/dont_have_account.dart';
+import '../widgets/email_and_password.dart';
+import '../widgets/terms_and_conditions.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});

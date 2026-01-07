@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mahfazty/core/theme/fonts_style.dart';
+
+import '../../../../core/theme/fonts_style.dart';
 
 class TermsAndConditions extends StatelessWidget {
   const TermsAndConditions({super.key});

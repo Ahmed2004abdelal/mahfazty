@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mahfazty/core/network/firebase_helper.dart';
-import 'package:mahfazty/features/home/ui/home_screen.dart';
-import 'package:mahfazty/features/login/logic/cubit/login_cubit.dart';
-import 'package:mahfazty/features/signup/logic/cubit/signup_cubit.dart';
-import 'package:mahfazty/features/signup/ui/screens/signup_screen.dart';
-import 'routs.dart';
+
+import '../../features/home/ui/screens/home_screen.dart';
+import '../../features/login/logic/cubit/login_cubit.dart';
 import '../../features/login/ui/screen/login_screen.dart';
+import '../../features/signup/logic/cubit/signup_cubit.dart';
+import '../../features/signup/ui/screens/signup_screen.dart';
+import '../network/firebase_helper.dart';
+import 'routs.dart';
 
 class Routing {
   Route generateRoute(RouteSettings settings) {
