@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mahfazty/core/helpers/spacing.dart';
-import 'package:mahfazty/core/theme/fonts_style.dart';
-import 'package:mahfazty/core/widgets/my_text_form_field.dart';
-import 'package:mahfazty/features/login/logic/cubit/login_cubit.dart';
-import 'package:mahfazty/features/signup/logic/cubit/signup_cubit.dart';
+import '../../../../core/helpers/spacing.dart';
+import '../../../../core/theme/fonts_style.dart';
+import '../../../../core/widgets/my_text_form_field.dart';
+import '../../../login/logic/cubit/login_cubit.dart';
+import '../../logic/cubit/signup_cubit.dart';
 
 class SingupFormField extends StatefulWidget {
   const SingupFormField({super.key});
